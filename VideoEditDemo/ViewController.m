@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "VideoEditVC.h"
 
 @interface ViewController ()
 
@@ -16,14 +17,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
+    [button setTitle:@"视频处理" forState:UIControlStateNormal];
+    button.frame = CGRectMake(150, 150, 100, 100);
+    button.backgroundColor = [UIColor orangeColor];
+    [self.view addSubview:button];
+    [button addTarget:self action:@selector(clickAction) forControlEvents:UIControlEventTouchDown];
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)clickAction {
+    VideoEditVC *vc = [[VideoEditVC alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
-
 
 @end

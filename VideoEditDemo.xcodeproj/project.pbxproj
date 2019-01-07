@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED7B6AB321E35108006B24A8 /* VideoEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7B6AB221E35108006B24A8 /* VideoEditVC.m */; };
+		ED7B6AB621E35909006B24A8 /* 1546854415882962.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = ED7B6AB521E35909006B24A8 /* 1546854415882962.mp4 */; };
+		ED7B6AB921E38F90006B24A8 /* VideoEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7B6AB821E38F90006B24A8 /* VideoEditView.m */; };
 		EDEAF2B521E0F8C3001E9415 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEAF2B421E0F8C3001E9415 /* AppDelegate.m */; };
 		EDEAF2B821E0F8C3001E9415 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEAF2B721E0F8C3001E9415 /* ViewController.m */; };
 		EDEAF2BB21E0F8C3001E9415 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDEAF2B921E0F8C3001E9415 /* Main.storyboard */; };
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED7B6AB121E35108006B24A8 /* VideoEditVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoEditVC.h; sourceTree = "<group>"; };
+		ED7B6AB221E35108006B24A8 /* VideoEditVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoEditVC.m; sourceTree = "<group>"; };
+		ED7B6AB521E35909006B24A8 /* 1546854415882962.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1546854415882962.mp4; sourceTree = "<group>"; };
+		ED7B6AB721E38F90006B24A8 /* VideoEditView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoEditView.h; sourceTree = "<group>"; };
+		ED7B6AB821E38F90006B24A8 /* VideoEditView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoEditView.m; sourceTree = "<group>"; };
 		EDEAF2B021E0F8C3001E9415 /* VideoEditDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoEditDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDEAF2B321E0F8C3001E9415 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EDEAF2B421E0F8C3001E9415 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -101,10 +109,15 @@
 		EDEAF2B221E0F8C3001E9415 /* VideoEditDemo */ = {
 			isa = PBXGroup;
 			children = (
+				ED7B6AB521E35909006B24A8 /* 1546854415882962.mp4 */,
 				EDEAF2B321E0F8C3001E9415 /* AppDelegate.h */,
 				EDEAF2B421E0F8C3001E9415 /* AppDelegate.m */,
 				EDEAF2B621E0F8C3001E9415 /* ViewController.h */,
 				EDEAF2B721E0F8C3001E9415 /* ViewController.m */,
+				ED7B6AB121E35108006B24A8 /* VideoEditVC.h */,
+				ED7B6AB221E35108006B24A8 /* VideoEditVC.m */,
+				ED7B6AB721E38F90006B24A8 /* VideoEditView.h */,
+				ED7B6AB821E38F90006B24A8 /* VideoEditView.m */,
 				EDEAF2B921E0F8C3001E9415 /* Main.storyboard */,
 				EDEAF2BC21E0F8C3001E9415 /* Assets.xcassets */,
 				EDEAF2BE21E0F8C3001E9415 /* LaunchScreen.storyboard */,
@@ -239,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDEAF2C021E0F8C3001E9415 /* LaunchScreen.storyboard in Resources */,
+				ED7B6AB621E35909006B24A8 /* 1546854415882962.mp4 in Resources */,
 				EDEAF2BD21E0F8C3001E9415 /* Assets.xcassets in Resources */,
 				EDEAF2BB21E0F8C3001E9415 /* Main.storyboard in Resources */,
 			);
@@ -267,6 +281,8 @@
 			files = (
 				EDEAF2B821E0F8C3001E9415 /* ViewController.m in Sources */,
 				EDEAF2C321E0F8C3001E9415 /* main.m in Sources */,
+				ED7B6AB921E38F90006B24A8 /* VideoEditView.m in Sources */,
+				ED7B6AB321E35108006B24A8 /* VideoEditVC.m in Sources */,
 				EDEAF2B521E0F8C3001E9415 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,7 +450,7 @@
 				DEVELOPMENT_TEAM = BR9NK93Y23;
 				INFOPLIST_FILE = VideoEditDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ZHANGZHONGYANG.VideoEditDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = zhanglinyu123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,7 +464,7 @@
 				DEVELOPMENT_TEAM = BR9NK93Y23;
 				INFOPLIST_FILE = VideoEditDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ZHANGZHONGYANG.VideoEditDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = zhanglinyu123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
